@@ -1,0 +1,72 @@
+/* Contact.css */
+
+/* Main container for contact page */
+.contact-container {
+    display: flex; /* Side-by-side layout */
+    justify-content: space-between; /* Space between form and details */
+    padding: 30px; /* Padding around the container */
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center container horizontally */
+  }
+  
+  /* Left side: Contact form styles */
+  .contact-form {
+    flex: 0 0 55%; /* Takes up 65% of the width */
+    margin-right: 20px; /* Space between form and company details */
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Heading color */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .form-group label {
+    display: block; /* Label on a new line */
+    margin-bottom: 5px; /* Space below label */
+    font-weight: bold; /* Bold labels */
+    color: #333; /* Label color */
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%; /* Full width of the input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border color and style */
+    border-radius: 5px; /* Rounded corners for input fields */
+    font-size: 14px; /* Font size for input fields */
+  }
+  
+  .send-button {
+    padding: 10px 20px; /* Button padding */
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .send-button:hover {
+    background-color: #555; /* Darker background on hover */
+  }
+  
+  /* Right side: Company contact details styles */
+  .company-details {
+    flex: 0 0 35%; /* Takes up 35% of the width */
+    margin-left: 20px; /* Space between form and company details */
+  }
+  
+  .company-details h2 {
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Heading color */
+  }
+  
+  .company-details p {
+    margin-bottom: 10px; /* Space between paragraphs */
+    color: #666; /* Paragraph text color */
+  }
+  

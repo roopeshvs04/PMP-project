@@ -1,0 +1,83 @@
+/* Navbar.css */
+
+/* Main navbar container */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar logo style */
+  .navbar-logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Navbar links container */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Aligns items vertically in the center */
+  }
+  
+  /* Individual navbar link style */
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for navbar links */
+  .navbar-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Dropdown menu container */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .products-link:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Dropdown menu item style */
+  .dropdown-item {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for dropdown items */
+  .dropdown-item:hover {
+    background-color: #555;
+  }
+  
