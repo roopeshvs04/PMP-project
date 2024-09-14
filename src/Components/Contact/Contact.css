@@ -2,6 +2,7 @@
 
 /* Main container for contact page */
 .contact-container {
+    height: 100vh;
     display: flex; /* Side-by-side layout */
     justify-content: space-between; /* Space between form and details */
     padding: 30px; /* Padding around the container */

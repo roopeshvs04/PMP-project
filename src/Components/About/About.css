@@ -1,0 +1,6 @@
+.about-container {
+    height: 100vh;
+    display: flex; /* Side-by-side layout */
+    justify-content: space-between; /* Space between form and details */
+    margin: 0 auto; /* Center container horizontally */
+}

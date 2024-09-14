@@ -22,7 +22,7 @@ function Navbar() {
           onMouseEnter={handleMouseEnter} 
           onMouseLeave={handleMouseLeave}
         >
-          <Link to={"/products"} className="navbar-link">Products</Link> {/* Link to the Products page */}
+          <Link to={"/products"} className="navbar-link">Products</Link>
           {dropdownVisible && (
             <ul className="dropdown-menu">
               <li>
